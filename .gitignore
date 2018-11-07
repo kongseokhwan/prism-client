@@ -14,8 +14,8 @@ desktop.ini*
 *.njsproj
 *.sln
 .eslintignore
-.eslintrc
-.postcssrc
+.eslintrc.js
+.postcssrc.js
 package-lock.json
 prism-client.zip
 
