@@ -1,0 +1,29 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+desktop.ini*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.eslintignore
+.eslintrc
+.postcssrc
+package-lock.json
+prism-client.zip
+
+#Components directories
+src/components/layout
+src/components/ui
+src/components/fabric
+src/components/monitoring
+src/components/tenant
+src/components/alarm
+src/components/tools

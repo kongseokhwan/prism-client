@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+#login-wrap {
+    display: table;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(155deg, #fff 0%, #f0f0f0 100%);
+}
+#login-wrap::after {
+    content: "";
+    position: fixed;
+    left: -22%;
+    top: 60%;
+    right: 0;
+    width: 125%;
+    height: 100%;
+    background: linear-gradient(155deg, #f0f0f0 0%, #fff 100%);
+    transform: rotate(15deg);
+}
+
+#login-wrap .login-container {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    padding: 20px;
+}
+#login-wrap .login-container .login-content { width: 330px; margin: auto; position: relative; z-index: 1; }
+#login-wrap .login-container .login-content.w500 { width: 500px; }
+#login-wrap .login-container .login-content h1 { margin-bottom: 30px!important; display: block; text-align: center; }
+#login-wrap .login-container .login-content h1 img { width: 330px; }
+#login-wrap .login-container .login-content .login-form dt { margin-bottom: 5px; }
+#login-wrap .login-container .login-content .login-form dt label { font-size: 16px; font-weight: 700!important; }
+#login-wrap .login-container .login-content .login-form dt label span { color: #e40030; display: inline-block; padding-left: 5px; font-size: 20px; vertical-align: middle; }
+#login-wrap .login-container .login-content .login-form dd { margin-bottom: 10px; }
+#login-wrap .login-container .login-content .login-error { color: #e40030; }
+#login-wrap .login-container .login-content .login-error i { display: inline-block;  }
+#login-wrap .login-container .login-content .login-error span { display: inline-block; vertical-align: top; }
+#login-wrap .login-container .login-content .login-btn { margin: 20px 0 20px 0; }
+#login-wrap .login-container .login-content .login-btn input { width: 100%; }
+#login-wrap .login-container .login-content .reset-pw { text-align: center; }
+#login-wrap .login-container .login-content .reset-pw a:hover {  text-decoration: underline; color: #1e84c8; }
+#login-wrap .login-container .login-content .reset-pw .dash { display: inline-block; padding: 0 10px; color: #ddd; }
+#login-wrap .login-container .login-content .success-info { text-align: center; }
+#login-wrap .login-container .login-content .success-info .success-text { font-size: 18px; font-weight: 500; line-height: 30px; }

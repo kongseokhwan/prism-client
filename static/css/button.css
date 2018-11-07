@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+.main-btn { display: inline-block; vertical-align: middle; line-height: 40px; background: #1e84c8; border-radius: 5px; font-size: 16px; font-weight: 500; color: #fff; min-width: 110px; height: 40px; text-align: center; padding: 0 10px; margin-right: 5px; }
+a.main-btn { text-decoration: none; color: #fff; }
+a.main-btn:hover, a.main-btn:link, a.main-btn:visited { color: #fff; }
+input[type="submit"].main-btn, input[type="button"].main-btn, input[type="file"].main-btn { border-radius: 5px; outline: 0; border: 0; }
+.main-btn:disabled { background: #b9bbc0; color: #fff!important; pointer-events: none; }
+.main-btn:hover { background: #156fab; }
+.main-btn:active { background: #125e91; }
+
+.main-btn.type01 { background: #6c757d; }
+
+.sub-btn1 { display: inline-block;  line-height: 36px; background: #00a2df; border-radius: 5px; font-size: 14px; font-weight: 500; color: #fff; min-width: 100px; height: 36px; text-align: center; padding: 0 10px; margin-right: 5px; }
+a.sub-btn1 { text-decoration: none; color: #fff; }
+a.sub-btn1:hover, a.sub-btn1:link, a.sub-btn1:visited { color: #fff; }
+input[type="submit"].sub-btn1, input[type="button"].sub-btn1, input[type="file"].sub-btn1 { border-radius: 5px; outline: 0; border: 0; }
+.sub-btn1:disabled { background: #b9bbc0; color: #fff!important; pointer-events: none; }
+.sub-btn1:hover { background: #0090c6; }
+.sub-btn1:active { background: #0077a4; }
+.sub-btn1:last-child { margin-right: 0; }
+.sub-btn1.type01 { min-width: 70px;  }
+
+.sub-btn2 { display: inline-block; vertical-align: middle; line-height: 36px; background: #fff; border-radius: 5px; font-size: 14px; font-weight: 500; color: #00a2df; min-width: 100px; height: 36px; text-align: center; padding: 0 10px; margin-right: 5px; border: 1px solid #00a2df; }
+a.sub-btn2 { text-decoration: none; color: #00a2df; }
+a.sub-btn2:hover, a.sub-btn2:link, a.sub-btn2:visited { color: #0090c6; }
+input[type="submit"].sub-btn2, input[type="button"].sub-btn2, input[type="file"].sub-btn2 { border-radius: 5px; outline: 0; border: 1px solid #00a2df; }
+.sub-btn2:disabled { background: #b9bbc0; color: #fff!important; pointer-events: none; }
+.sub-btn2:hover { background: #fff; border: 1px solid #0090c6; color: #0090c6; }
+.sub-btn2:active { background: #fff; border: 1px solid #0077a4; color: #0077a4; }
+.sub-btn2:last-child { margin-right: 0; }
+
+.ssh-btn { display: inline-block; line-height: 36px; border-radius: 5px; font-size: 16px; font-weight: 500; min-width: 150px; text-align: center; padding: 0 10px; margin-right: 5px; }
+a.ssh-btn { text-decoration: none; color: #fff; }
+a.ssh-btn:hover, a.ssh-btn:link, a.ssh-btn:visited { color: #fff; }
+input[type="submit"].ssh-btn, input[type="button"].ssh-btn, input[type="file"].ssh-btn { border-radius: 5px; outline: 0; border: 0; }
+.ssh-btn.active { border: 2px solid #ff4c4c!important; }
+
+.ssh-btn.type01 { background: #000; border: 2px solid #000; color: #fff; }
+.ssh-btn.type02 { background: #fff; border: 2px solid #eee; color: #000!important; }
+
+.btn-toggle01 { border: 0; background: #fff; height: auto; vertical-align: top; }
+.btn-toggle01:after { 
+    font-family: Material-Design-Iconic-Font;
+    content: '\f2f9';
+    font-size: 22px;
+    display: block;
+    color: #ccc;
+}
+.btn-toggle01.open:after { 
+    font-family: Material-Design-Iconic-Font;
+    content: '\f2fc';
+    font-size: 22px;
+    display: block;
+    color: #555;    
+}
+
+.btn-toggle02 { border: 0; background: #fff; height: auto; vertical-align: top; }
+.btn-toggle02:after { 
+    font-family: Material-Design-Iconic-Font;
+    content: '\f278';
+    font-size: 22px;
+    display: block;
+    color: #ccc;
+}
+.btn-toggle02.open:after { 
+    font-family: Material-Design-Iconic-Font;
+    content: '\f273';
+    font-size: 22px;
+    display: block;
+    color: #555;    
+}
+.btn-toggle02.open + span { font-weight: 500; color: #000; }
+
+.btn-del { background: none; }
+.btn-left { background: none; font-size: 26px; color: #888!important; }
